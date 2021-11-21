@@ -91,16 +91,17 @@ img {
   border-radius: 50%;
 }
 
+.social-link:hover:hover .social-icon,
+.social-link:hover:focus .social-icon, .social-link:focus:hover .social-icon,
+.social-link:focus:focus .social-icon {
+  fill: #ffffff;
+}
+
 .social-icon {
   fill: #AFB1B8;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: #ffffff;
 }
 
 .modal-btn {
@@ -667,16 +668,17 @@ img {
   border: 1px solid var(--accent-color);
 }
 
+.clients-link:hover:hover .clients-icon,
+.clients-link:hover:focus .clients-icon, .clients-link:focus:hover .clients-icon,
+.clients-link:focus:focus .clients-icon {
+  fill: var(--accent-color);
+}
+
 .clients-icon {
   fill: currentColor;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--accent-color);
 }
 
 .section-portfolio {

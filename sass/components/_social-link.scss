@@ -26,15 +26,14 @@
 &:hover,&:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
-}}
+    &:hover .social-icon,
+    &:focus .social-icon {
+    fill: #ffffff;
+}}}
 
 .social-icon {
     fill: #AFB1B8;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-    fill: #ffffff;
 }
